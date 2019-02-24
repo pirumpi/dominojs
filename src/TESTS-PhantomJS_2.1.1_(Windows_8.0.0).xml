@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 8.0.0)" package="" timestamp="2019-02-24T06:14:41" id="0" hostname="DESKTOP-TTP9D2M" tests="5" errors="0" failures="0" time="0.69">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="HeaderComponent should create" time="0.096" classname="PhantomJS_2_1_1_(Windows_8_0_0).HeaderComponent"/>
+  <testcase name="AppComponent should create the app" time="0.26" classname="PhantomJS_2_1_1_(Windows_8_0_0).AppComponent"/>
+  <testcase name="AppComponent should have as title 'domino'" time="0.144" classname="PhantomJS_2_1_1_(Windows_8_0_0).AppComponent"/>
+  <testcase name="AvatarComponent should create" time="0.092" classname="PhantomJS_2_1_1_(Windows_8_0_0).AvatarComponent"/>
+  <testcase name="BoardComponent should create" time="0.098" classname="PhantomJS_2_1_1_(Windows_8_0_0).BoardComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
