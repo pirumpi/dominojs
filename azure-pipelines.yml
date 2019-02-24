@@ -19,6 +19,6 @@ steps:
     npm install -g @angular/cli
     npm install
     ng lint
-    ng test
+    npm run test-single-headless
     build --prod
   displayName: 'npm install and build'
