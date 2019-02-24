@@ -20,5 +20,4 @@ steps:
     npm install
     ng lint
     npm run test-single-headless
-    build --prod
   displayName: 'npm install and build'
