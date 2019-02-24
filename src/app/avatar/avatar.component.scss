@@ -1,0 +1,30 @@
+.avatar {
+    width: 75vh; background-color: #808080bf; height: 10vh; margin-left: 5vh;
+    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
+    display: flex; overflow: hidden;
+    
+    &.left .image img { transform: rotate(90deg) }
+    &.right .image img { transform: rotate(-90deg) }
+    &.bottom {
+        border-bottom-left-radius: 0; border-bottom-right-radius: 0;
+        border-top-left-radius: 20px; border-top-right-radius: 20px;
+    }
+
+    .image { 
+        position: relative; 
+        img { 
+            border-radius: 50%; border: 3px solid #fff; height: 8vh; 
+            margin: 1px; flex: 1
+        }
+        h4 { 
+            color: black;
+            position: absolute;
+            top: 16%;
+            left: 110%;
+        }
+    }
+
+    .domino {
+        background-color: #69b2d696; height: 100%; flex: 2;
+    }
+}

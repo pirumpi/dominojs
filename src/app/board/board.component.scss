@@ -1,6 +1,16 @@
 .board {
+    position: relative;
+    grid-template-columns: 0.1fr 2.1fr 0.1fr;
+    grid-template-rows: 0.2fr 2.1fr 0.2fr;
+    grid-template-areas: ". player-1 ." "player-2 main player-4" ". player-3 .";
     height: 100%; width: 100%; 
-    background: url(/assets/background.jpg);
-    background-size: 100%;
+    background: url(/assets/background.jpg) no-repeat;
+    background-size: cover;
 
+    app-avatar { position: absolute; }
+    
+    .player-1,.player-4 { left: 50vh; }
+    .player-2 { transform: rotate(-90deg); left: -35vh; top: 46vh; }
+    .player-3 { transform: rotate(90deg); right: -35vh; top: 46vh; }
+    .player-4 { bottom: 0; }
 }
